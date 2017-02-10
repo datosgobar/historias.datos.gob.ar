@@ -10,6 +10,7 @@
 
 .background-pattern {
   background-image: url("/images/trama_cover.svg");
+  background-size: cover;
   height: 350px; }
 
 .blue-gradient {
@@ -20,6 +21,10 @@
   height: 350px;
   padding-left: 0;
   padding-right: 0; }
+
+.panel-heading {
+  height: 220px;
+}
 
 @media (min-width: 768px) {
   body {
