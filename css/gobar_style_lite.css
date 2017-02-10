@@ -8,6 +8,14 @@
     height: 0;
     clear: both; }
 
+.no-padding {
+  padding: 0; }
+
+.pane-content {
+  margin: 80px auto;
+  max-width: 1200px;
+  padding: 0 20px; }
+
 .background-pattern {
   background-image: url("/images/trama_cover.svg");
   background-size: cover;
@@ -22,9 +30,11 @@
   padding-left: 0;
   padding-right: 0; }
 
+.panel {
+  margin-bottom: 0; }
+
 .panel-heading {
-  height: 220px;
-}
+  height: 220px; }
 
 @media (min-width: 768px) {
   body {
