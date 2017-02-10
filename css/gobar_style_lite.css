@@ -8,6 +8,18 @@
     height: 0;
     clear: both; }
 
+.background-pattern {
+  background-image: url("/images/trama_cover.svg");
+  height: 350px; }
+
+.blue-gradient {
+  background-color: #00b9f1;
+  background-image: -webkit-linear-gradient(left, #00b9f1, #0072bc);
+  background-image: linear-gradient(to right,#00b9f1, #0072bc);
+  color: white;
+  height: 350px;
+  padding-left: 0;
+  padding-right: 0; }
 
 @media (min-width: 768px) {
   body {
