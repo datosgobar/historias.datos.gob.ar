@@ -1,21 +1,3 @@
-.restricted-max-width {
-  max-width: 1200px;
-  margin: auto;
-  height: 100%; }
-  .restricted-max-width:after {
-    content: " ";
-    display: block;
-    height: 0;
-    clear: both; }
-
-.no-padding {
-  padding: 0; }
-
-.pane-content {
-  margin: 80px auto;
-  max-width: 1200px;
-  padding: 0 20px; }
-
 .background-pattern {
   background-image: url("/images/trama_cover.svg");
   background-size: cover;
@@ -31,10 +13,21 @@
   padding-right: 0; }
 
 .panel {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
+
+.pane-content {
+  margin: 20px auto;
+  padding: 0 20px;
+}
 
 .panel-heading {
-  height: 220px; }
+  height: 220px;
+}
+
+.viz-card {
+  padding: 10px;
+}
 
 #banner {
   color: white;
@@ -49,8 +42,42 @@
 #banner p {
   font-size: 20px;
   font-weight: 300;
-  margin: 0 100px;
 }
+
+@media (min-width: 768px) {
+  /* Screen width between 768px & 991px */
+  /* aparecen links header footer */
+}
+
+@media (min-width: 992px) {
+  /* Screen width between 992px & 1199px */    
+}
+
+@media (min-width: 1200px) {
+  /* Screen width >= 1200px */
+  .no-padding {
+    padding: 0; }
+
+  .pane-content {
+    margin: 80px auto;
+    max-width: 1200px;
+    padding: 0 20px; }
+
+  .restricted-max-width {
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+  }
+  .restricted-max-width:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+  }
+}
+
+
+/* From gobar_style.css */
 
 @media (min-width: 768px) {
   body {
