@@ -12,8 +12,27 @@
   padding-left: 0;
   padding-right: 0; }
 
+.banner-content {
+  margin: 80px auto;
+  color: white;
+  text-align: center;
+}
+  .banner-content h1 {
+    font-size: 55px;
+    font-weight: 400;
+    padding: 0 20px;
+  }
+  .banner-content p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
 .panel {
   margin-bottom: 0;
+}
+
+.pane-content {
+  padding: 0 20px;
 }
 
 .panel-heading {
@@ -23,20 +42,6 @@
 .viz-card {
   padding: 10px;
 }
-
-.banner-content {
-  margin: 80px auto;
-  color: white;
-  text-align: center;
-}
-  .banner-content h1 {
-    font-size: 55px;
-    font-weight: 400;
-  }
-  .banner-content p {
-    font-size: 20px;
-    font-weight: 300;
-  }
 
 #footer p {
   font-weight: 500;
@@ -51,12 +56,10 @@
 @media (max-width: 767px) {  
   .banner-content {
     max-width: 550px;
-    padding: 0 20px;
   }
   .pane-content {
     margin: 20px auto;
     max-width: 400px;
-    padding: 0 20px;
   }
   .restricted-max-width {
     max-width: 550px;
@@ -74,12 +77,10 @@
   /* Screen width between 768px & 991px */
   .banner-content {
     max-width: 750px;
-    padding: 0 20px;
   }
   .pane-content {
     margin: 20px auto;
     max-width: 750px;
-    padding: 0 20px;
   }
   .restricted-max-width {
     max-width: 750px;
@@ -97,12 +98,10 @@
   /* Screen width between 992px & 1199px */
   .banner-content {
     max-width: 970px;
-    padding: 0 20px;
   }
   .pane-content {
     margin: 20px auto;
     max-width: 970px;
-    padding: 0 20px;
   }
   .restricted-max-width {
     max-width: 970px;
@@ -123,15 +122,11 @@
 
   .banner-content {
     max-width: 1200px;
-    padding: 0 20px;
   }
-
   .pane-content {
     margin: 80px auto;
     max-width: 1200px;
-    padding: 0 20px;
   }
-
   .restricted-max-width {
     max-width: 1200px;
     margin: auto;
