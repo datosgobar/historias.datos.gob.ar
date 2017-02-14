@@ -25,6 +25,7 @@
 }
 
 .banner-content {
+  margin: 80px auto;
   color: white;
   text-align: center;
 }
@@ -41,9 +42,14 @@
   font-weight: 500;
 }
 
-@media (max-width: 767px) {  
+@media (max-width: 553px) {
   .banner-content {
     margin: 20px auto;
+  }
+}
+
+@media (max-width: 767px) {  
+  .banner-content {
     max-width: 550px;
     padding: 0 20px;
   }
@@ -66,11 +72,48 @@
 
 @media (min-width: 768px) {
   /* Screen width between 768px & 991px */
-  /* aparecen links header footer */
+  .banner-content {
+    max-width: 750px;
+    padding: 0 20px;
+  }
+  .pane-content {
+    margin: 20px auto;
+    max-width: 750px;
+    padding: 0 20px;
+  }
+  .restricted-max-width {
+    max-width: 750px;
+    margin: auto;
+  }
+  .restricted-max-width:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+  }
 }
 
 @media (min-width: 992px) {
-  /* Screen width between 992px & 1199px */    
+  /* Screen width between 992px & 1199px */
+  .banner-content {
+    max-width: 970px;
+    padding: 0 20px;
+  }
+  .pane-content {
+    margin: 20px auto;
+    max-width: 970px;
+    padding: 0 20px;
+  }
+  .restricted-max-width {
+    max-width: 970px;
+    margin: auto;
+  }
+  .restricted-max-width:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -79,7 +122,6 @@
     padding: 0; }
 
   .banner-content {
-    margin: 80px auto;
     max-width: 1200px;
     padding: 0 20px;
   }
