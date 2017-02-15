@@ -4,6 +4,11 @@ body {
   height: auto;
 }
 
+/* Fixes Bootstrap column issue in Safari 10+ */
+.row::after, .row::before {
+  width: 0;
+}
+
 .background-pattern {
   background-image: url("/images/trama_cover.svg");
   background-size: cover;
