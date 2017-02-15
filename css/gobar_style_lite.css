@@ -67,12 +67,6 @@ body {
   font-weight: 500;
 }
 
-@media (max-width: 553px) {
-  .banner-content {
-    margin: 20px auto;
-  }
-}
-
 @media (max-width: 767px) {  
   .banner-content {
     max-width: 550px;
@@ -97,27 +91,6 @@ body {
   /* Screen width between 768px & 991px */
   .banner-content {
     max-width: 750px;
-  }
-  .pane-content {
-    margin: 60px auto;
-    max-width: 750px;
-  }
-  .restricted-max-width {
-    max-width: 750px;
-    margin: auto;
-  }
-  .restricted-max-width:after {
-    content: " ";
-    display: block;
-    height: 0;
-    clear: both;
-  }
-}
-
-@media (min-width: 992px) {
-  /* Screen width between 992px & 1199px */
-  .banner-content {
-    max-width: 970px;
   }
   .pane-content {
     margin: 60px auto;
