@@ -1,8 +1,11 @@
-# historias.datos.gob.ar
-Página estática como punto de entrada a visualizaciones.
+# [historias.datos.gob.ar](http://historias.datos.gob.ar/)
 
-1- apt install apache2
+Repositorio de la página de inicio para visualizaciones del [Portal de Datos](http://datos.gob.ar/) de la República Argentina.
 
-2- cd /var/www
+## Instalación
 
-3- git clone
+* Instalar servidor Apache ```apt install apache2```.
+
+* ```cd /var/www```.
+
+* ```git clone```.
