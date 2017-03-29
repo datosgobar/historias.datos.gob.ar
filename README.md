@@ -3,7 +3,6 @@ Página de inicio para visualizaciones del [Portal de Datos](http://datos.gob.ar
 
 ## Índice 
 * [Instalación](#instalación) 
-* [Dependencias](#dependencias) 
 * [Contacto](#contacto) 
 
 ## Instalación 
