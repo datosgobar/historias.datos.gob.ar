@@ -10,7 +10,7 @@ body {
 }
 
 .background-pattern {
-  background-image: url("/images/trama_cover.svg");
+  background-image: url("/images/trama_cover.png");
   background-size: cover;
 }
 
@@ -38,7 +38,7 @@ body {
   }
   .banner-content p {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     margin-bottom: 60px;
   }
 
